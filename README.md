@@ -6,11 +6,13 @@ A forex week begins when the Wellington/Sydney forex markets open (Sun 5pm EST) 
 
 In order to calculate daily OHCL bars, the around the clock forex week can be split in 5 days:
 
-monday:    from Sun 5pm EST to Mon EST 5pm
-tuesday:   from Mon 5pm EST to Tue EST 5pm
-wednesday: from Tue 5pm EST to Wed EST 5pm
-thursday:  from Wed 5pm EST to Thu EST 5pm
-friday:    from Thu 5pm EST to Fri EST 5pm
+| day        | from         | to           |
+|:-----------|:-------------|:-------------|
+| monday     | Sun 5pm EST  | Mon EST 5pm  |
+| tuesday    | Mon 5pm EST  | Tue EST 5pm  |
+| wednesday  | Tue 5pm EST  | Wed EST 5pm  |
+| thursday   | Wed 5pm EST  | Thu EST 5pm  |
+| friday     | Thu 5pm EST  | Fri EST 5pm  |
 
 For example, if current time is Thu May 24 06:38:34 UTC 2012:
 
