@@ -8,11 +8,11 @@ In order to calculate daily OHCL bars, the around the clock forex week can be sp
 
 | day        | from         | to           |
 |:-----------|:-------------|:-------------|
-| monday     | Sun 5pm EST  | Mon EST 5pm  |
-| tuesday    | Mon 5pm EST  | Tue EST 5pm  |
-| wednesday  | Tue 5pm EST  | Wed EST 5pm  |
-| thursday   | Wed 5pm EST  | Thu EST 5pm  |
-| friday     | Thu 5pm EST  | Fri EST 5pm  |
+| monday     | Sun 5pm EST  | Mon 5pm EST  |
+| tuesday    | Mon 5pm EST  | Tue 5pm EST  |
+| wednesday  | Tue 5pm EST  | Wed 5pm EST  |
+| thursday   | Wed 5pm EST  | Thu 5pm EST  |
+| friday     | Thu 5pm EST  | Fri 5pm EST  |
 
 For example, if current time is Thu May 24 06:38:34 UTC 2012:
 
