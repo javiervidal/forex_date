@@ -2,6 +2,26 @@
 
 Calculate the date of the current forex day.
 
+A forex week begins when the Wellington/Sydney forex markets open (Sun 5pm EST) and closes when the New York forex market closes (Fri 5pm EST).
+
+In order to calculate daily OHCL bars, the around the clock forex week can be split in 5 days:
+
+monday:    from Sun 5pm EST to Mon EST 5pm
+tuesday:   from Mon 5pm EST to Tue EST 5pm
+wednesday: from Tue 5pm EST to Wed EST 5pm
+thursday:  from Wed 5pm EST to Thu EST 5pm
+friday:    from Thu 5pm EST to Fri EST 5pm
+
+For example, if current time is Thu May 24 06:38:34 UTC 2012:
+
+> ForexDate.now
+ => Thu, 24 May 2012
+
+On saturdays and sundays it returns nil. If current time is Sat May 26 06:38:34 UTC 2012:
+
+> ForexDate.now
+ => nil
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -15,10 +35,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install forex_date
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
