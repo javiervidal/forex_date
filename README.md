@@ -16,12 +16,12 @@ In order to calculate daily OHCL bars, the around the clock forex week can be sp
 
 For example, if current time is Thu May 24 06:38:34 UTC 2012:
 
-> ForexDate.now
+> ForexDate.today
  => Thu, 24 May 2012
 
 On saturdays and sundays it returns nil. If current time is Sat May 26 06:38:34 UTC 2012:
 
-> ForexDate.now
+> ForexDate.today
  => nil
 
 ## Installation

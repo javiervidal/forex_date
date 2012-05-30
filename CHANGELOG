@@ -1,3 +1,7 @@
+1.0.4 (2012-05-30)
+
+  * README fixed.
+
 1.0.3 (2012-05-30)
 
   * ForexDate.now becomes ForexDate.today. It should be similar to Date.today because it returns a date,
